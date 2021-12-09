@@ -26,7 +26,8 @@ body {
   overflow-x: hidden;
   scroll-padding-top: 9rem;
   background: linear-gradient(rgba(1, 1, 1, 0.4), rgba(1, 1, 1, 0.4)),
-    url("images/galleryBg.jpg") no-repeat;
+    url("https://github.com/BVBFD/WarhammerSite/raw/main/images/galleryBg.jpg")
+      no-repeat;
   object-fit: cover;
   background-size: cover;
   background-position: center;
@@ -185,7 +186,8 @@ section {
 /* about part start */
 .about .heading {
   background: linear-gradient(rgba(1, 1, 1, 0.4), rgba(1, 1, 1, 0.4)),
-    url("images/galleryBg.jpg") no-repeat;
+    url("https://github.com/BVBFD/WarhammerSite/raw/main/images/galleryBg.jpg")
+      no-repeat;
   object-fit: cover;
   background-size: cover;
   background-position: center;
@@ -270,7 +272,8 @@ section {
 .gallery {
   padding-bottom: 5rem;
   background: linear-gradient(rgba(1, 1, 1, 0.4), rgba(1, 1, 1, 0.4)),
-    url("images/galleryBg.jpg") no-repeat;
+    url("https://github.com/BVBFD/WarhammerSite/raw/main/images/galleryBg.jpg")
+      no-repeat;
   object-fit: cover;
   background-size: cover;
   background-position: center;
@@ -351,7 +354,8 @@ section {
 .article {
   padding-bottom: 5rem;
   background: linear-gradient(rgba(1, 1, 1, 0.4), rgba(1, 1, 1, 0.4)),
-    url("images/galleryBg.jpg") no-repeat;
+    url("https://github.com/BVBFD/WarhammerSite/raw/main/images/galleryBg.jpg")
+      no-repeat;
   object-fit: cover;
   background-size: cover;
   background-position: center;
