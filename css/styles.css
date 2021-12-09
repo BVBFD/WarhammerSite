@@ -512,6 +512,7 @@ body {
     font-size: 3rem;
     width: 100vw;
     height: 5rem;
+    line-height: 5rem;
   }
 
   .gallery .heading {
@@ -527,10 +528,6 @@ body {
     font-size: 3rem;
     width: 100vw;
     height: 5rem;
-  }
-
-  .about .videoExplainBuyBox video {
-    top: 2rem;
   }
 
   .about .videoExplainBuyBox .explain {
@@ -574,6 +571,10 @@ body {
 
   .gallery .swiper-slide img {
     height: 30rem;
+  }
+
+  .article {
+    padding-bottom: 0;
   }
 
   .article .articleBoxesContainer {
@@ -640,7 +641,6 @@ body {
   .gallery .heading {
     font-size: 1.5rem;
     width: 100vw;
-    height: 5rem;
     padding: 0;
   }
 
