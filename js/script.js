@@ -6,7 +6,6 @@ const videoBoxesBtn = document.querySelectorAll(
   ".faction .factionBox .btnClickVideo i"
 );
 const factionBoxes = document.querySelectorAll(".faction .factionBox");
-console.log(factionBoxes);
 
 navbarBtn.onclick = () => {
   navbar.classList.toggle("active");
@@ -24,9 +23,6 @@ factionBoxes.forEach((factionBox) => {
 videoBoxesBtn.forEach((btn) => {
   btn.onclick = (event) => {
     event.target.parentNode.parentNode.classList.toggle("active");
-    console.log(
-      event.target.parentNode.parentNode.getElementsByTagName("video")[0]
-    );
     event.target.parentNode.parentNode.getElementsByTagName("video")[0].pause();
   };
 });
