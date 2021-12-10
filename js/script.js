@@ -22,6 +22,7 @@ factionBoxes.forEach((factionBox) => {
 
 videoBoxesBtn.forEach((btn) => {
   btn.onclick = (event) => {
+    console.log(event.target);
     event.target.parentNode.parentNode.classList.toggle("active");
     event.target.parentNode.parentNode.getElementsByTagName("video")[0].pause();
   };
